@@ -10,7 +10,6 @@ AddEventHandler("menuanim:AnimOG", function(target)
 	VMenu.AddFunc(98, "-Autres", "vmenu:Autres", {}, "Valider")
 	VMenu.AddFunc(98, "-Jobs", "vmenu:Jobs", {}, "Valider")
 	VMenu.AddFunc(98, "-vrac", "vmenu:vrac", {}, "Valider")
-	VMenu.AddFunc(98, "-animaux", "vmenu:animaux", {}, "Valider")
 	VMenu.AddFunc(98, "-test2", "vmenu:test2", {}, "Valider")
 end)
 
@@ -150,96 +149,54 @@ AddEventHandler("vmenu:vrac", function(target)
 	VMenu.AddFunc(98, "Faire du lèche vitrine", "anim:play", {87}, "Valider")	
 end)
 
-AddEventHandler("vmenu:animaux", function(target)
-	VMenu.animations = true
-	VMenu.ResetMenu(98, "", "default")
-	Wait(100)
-	VMenu.AddFunc(98, "Retour", "menuanim:AnimOG", {}, "Retour")
-	VMenu.AddFunc(98, "1", "anim:play", {88}, "Valider")
-	VMenu.AddFunc(98, "2", "anim:play", {89}, "Valider")
-	VMenu.AddFunc(98, "3", "anim:play", {90}, "Valider")
-	VMenu.AddFunc(98, "4", "anim:play", {91}, "Valider")
-	VMenu.AddFunc(98, "5", "anim:play", {92}, "Valider")
-	VMenu.AddFunc(98, "6", "anim:play", {93}, "Valider")
-	VMenu.AddFunc(98, "7", "anim:play", {94}, "Valider")
-	VMenu.AddFunc(98, "8", "anim:play", {95}, "Valider")
-	VMenu.AddFunc(98, "9", "anim:play", {96}, "Valider")
-	VMenu.AddFunc(98, "10", "anim:play", {97}, "Valider")
-	VMenu.AddFunc(98, "11", "anim:play", {98}, "Valider")
-	VMenu.AddFunc(98, "12", "anim:play", {99}, "Valider")
-	VMenu.AddFunc(98, "13", "anim:play", {100}, "Valider")
-	VMenu.AddFunc(98, "14", "anim:play", {101}, "Valider")
-	VMenu.AddFunc(98, "15", "anim:play", {102}, "Valider")
-	VMenu.AddFunc(98, "16", "anim:play", {103}, "Valider")
-	VMenu.AddFunc(98, "17", "anim:play", {104}, "Valider")
-	VMenu.AddFunc(98, "18", "anim:play", {105}, "Valider")
-	VMenu.AddFunc(98, "19", "anim:play", {106}, "Valider")
-	VMenu.AddFunc(98, "20", "anim:play", {107}, "Valider")
-	VMenu.AddFunc(98, "21", "anim:play", {108}, "Valider")
-	VMenu.AddFunc(98, "22", "anim:play", {109}, "Valider")
-	VMenu.AddFunc(98, "23", "anim:play", {110}, "Valider")
-	VMenu.AddFunc(98, "24", "anim:play", {111}, "Valider")
-	VMenu.AddFunc(98, "25", "anim:play", {112}, "Valider")
-	VMenu.AddFunc(98, "26", "anim:play", {113}, "Valider")
-	VMenu.AddFunc(98, "27", "anim:play", {114}, "Valider")
-	VMenu.AddFunc(98, "28", "anim:play", {115}, "Valider")
-	VMenu.AddFunc(98, "29", "anim:play", {116}, "Valider")
-	VMenu.AddFunc(98, "30", "anim:play", {117}, "Valider")
-	VMenu.AddFunc(98, "31", "anim:play", {118}, "Valider")
-	VMenu.AddFunc(98, "32", "anim:play", {119}, "Valider")
-	VMenu.AddFunc(98, "33", "anim:play", {120}, "Valider")
-	VMenu.AddFunc(98, "34", "anim:play", {121}, "Valider")
-	VMenu.AddFunc(98, "35", "anim:play", {122}, "Valider")
-	VMenu.AddFunc(98, "36", "anim:play", {123}, "Valider")
-end)
-
 AddEventHandler("vmenu:test2", function(target)
 	VMenu.animations = true
 	VMenu.ResetMenu(98, "", "default")
 	Wait(100)
 	VMenu.AddFunc(98, "Retour", "menuanim:AnimOG", {}, "Retour")
-	VMenu.AddFunc(98, "1", "anim:play", {124}, "Valider")
-	VMenu.AddFunc(98, "2", "anim:play", {125}, "Valider")
-	VMenu.AddFunc(98, "3", "anim:play", {126}, "Valider")
-	VMenu.AddFunc(98, "4", "anim:play", {127}, "Valider")
-	VMenu.AddFunc(98, "5", "anim:play", {128}, "Valider")
-	VMenu.AddFunc(98, "6", "anim:play", {129}, "Valider")
-	VMenu.AddFunc(98, "7", "anim:play", {130}, "Valider")
-	VMenu.AddFunc(98, "8", "anim:play", {131}, "Valider")
-	VMenu.AddFunc(98, "9", "anim:play", {132}, "Valider")
-	VMenu.AddFunc(98, "10", "anim:play", {134}, "Valider")
-	VMenu.AddFunc(98, "11", "anim:play", {135}, "Valider")
-	VMenu.AddFunc(98, "12", "anim:play", {136}, "Valider")
-	VMenu.AddFunc(98, "13", "anim:play", {137}, "Valider")
-	VMenu.AddFunc(98, "14", "anim:play", {138}, "Valider")
-	VMenu.AddFunc(98, "15", "anim:play", {139}, "Valider")
-	VMenu.AddFunc(98, "16", "anim:play", {140}, "Valider")
-	VMenu.AddFunc(98, "17", "anim:play", {141}, "Valider")
-	VMenu.AddFunc(98, "18", "anim:play", {142}, "Valider")
-	VMenu.AddFunc(98, "19", "anim:play", {143}, "Valider")
-	VMenu.AddFunc(98, "20", "anim:play", {144}, "Valider")
-	VMenu.AddFunc(98, "21", "anim:play", {145}, "Valider")
-	VMenu.AddFunc(98, "22", "anim:play", {146}, "Valider")
-	VMenu.AddFunc(98, "23", "anim:play", {147}, "Valider")
-	VMenu.AddFunc(98, "24", "anim:play", {148}, "Valider")
-	VMenu.AddFunc(98, "25", "anim:play", {149}, "Valider")
-	VMenu.AddFunc(98, "26", "anim:play", {150}, "Valider")
-	VMenu.AddFunc(98, "27", "anim:play", {151}, "Valider")
-	VMenu.AddFunc(98, "28", "anim:play", {152}, "Valider")
-	VMenu.AddFunc(98, "29", "anim:play", {153}, "Valider")
-	VMenu.AddFunc(98, "30", "anim:play", {154}, "Valider")
-	VMenu.AddFunc(98, "31", "anim:play", {155}, "Valider")
-	VMenu.AddFunc(98, "32", "anim:play", {156}, "Valider")
-	VMenu.AddFunc(98, "33", "anim:play", {157}, "Valider")
-	VMenu.AddFunc(98, "34", "anim:play", {158}, "Valider")
-	VMenu.AddFunc(98, "35", "anim:play", {159}, "Valider")
-	VMenu.AddFunc(98, "36", "anim:play", {160}, "Valider")
-	VMenu.AddFunc(98, "37", "anim:play", {161}, "Valider")
-	VMenu.AddFunc(98, "38", "anim:play", {162}, "Valider")
-	VMenu.AddFunc(98, "39", "anim:play", {163}, "Valider")
-	VMenu.AddFunc(98, "40", "anim:play", {164}, "Valider")
-	VMenu.AddFunc(98, "41", "anim:play", {165}, "Valider")
-	VMenu.AddFunc(98, "43", "anim:play", {166}, "Valider")
+	VMenu.AddFunc(98, "Distributeur", "anim:play", {124}, "Valider")
+	VMenu.AddFunc(98, "Barbecue", "anim:play", {125}, "Valider")
+	VMenu.AddFunc(98, "Fouiller poubelle", "anim:play", {126}, "Valider")
+	VMenu.AddFunc(98, "Pousser un caddie", "anim:play", {127}, "Valider")
+	VMenu.AddFunc(98, "Musculation traction", "anim:play", {128}, "Valider")-- a voir
+	VMenu.AddFunc(98, "Musculation traction v2", "anim:play", {129}, "Valider")-- a voir
+	VMenu.AddFunc(98, "Musculation traction v3", "anim:play", {130}, "Valider")-- a voir
+	VMenu.AddFunc(98, "Compter piéces", "anim:play", {131}, "Valider")
+	VMenu.AddFunc(98, "S'assoir fauteuil", "anim:play", {132}, "Valider")-- a voir
+	VMenu.AddFunc(98, "S'assoir chaise bar", "anim:play", {132}, "Valider")-- a voir
+	VMenu.AddFunc(98, "S'assoir banc", "anim:play", {134}, "Valider")-- a voir
+	VMenu.AddFunc(98, "S'assoir avec café", "anim:play", {135}, "Valider")
+	VMenu.AddFunc(98, "S'assoir avec biére", "anim:play", {136}, "Valider")
+	VMenu.AddFunc(98, "S'assoir avec club poulet", "anim:play", {137}, "Valider")
+	VMenu.AddFunc(98, "S'assoir à l'arret du bus", "anim:play", {138}, "Valider")-- a voir
+	VMenu.AddFunc(98, "S'assoir?", "anim:play", {139}, "Valider")-- a voir
+	VMenu.AddFunc(98, "S'assoir chaise café", "anim:play", {140}, "Valider")--a voir
+	VMenu.AddFunc(98, "S'assoir chaise biere", "anim:play", {141}, "Valider")-- a voir
+	VMenu.AddFunc(98, "S'assoir chaise manger", "anim:play", {142}, "Valider")-- a voir
+	VMenu.AddFunc(98, "S'assoir chaise attendre", "anim:play", {143}, "Valider")--a voir
+	VMenu.AddFunc(98, "S'assoir chaise ? ", "anim:play", {144}, "Valider")-- a voir
+	VMenu.AddFunc(98, "rien", "anim:play", {145}, "Valider")--a voir
+	VMenu.AddFunc(98, "S'assoir alongé", "anim:play", {146}, "Valider")
+	VMenu.AddFunc(98, "S'assoir alongé café", "anim:play", {147}, "Valider")
+	VMenu.AddFunc(98, "Musculation dévelopé couché", "anim:play", {148}, "Valider")
+	VMenu.AddFunc(98, "Musculation dévelopé couché v2", "anim:play", {149}, "Valider")
+	VMenu.AddFunc(98, "rien", "anim:play", {150}, "Valider")-- a supr
+	VMenu.AddFunc(98, "Assis muret danser", "anim:play", {151}, "Valider")
+	VMenu.AddFunc(98, "Gainage", "anim:play", {152}, "Valider")-- a voir
+	VMenu.AddFunc(98, "Attendre impatient v2", "anim:play", {153}, "Valider")
+	VMenu.AddFunc(98, "rien", "anim:play", {154}, "Valider")-- a supr
+	VMenu.AddFunc(98, "Fair le guet v2", "anim:play", {155}, "Valider")
+	VMenu.AddFunc(98, "rie", "anim:play", {156}, "Valider")-- a supr
+	VMenu.AddFunc(98, "rien", "anim:play", {157}, "Valider")-- a supr
+	VMenu.AddFunc(98, "rien", "anim:play", {158}, "Valider")-- a supr
+	VMenu.AddFunc(98, "Réflechir accroupi", "anim:play", {159}, "Valider")
+	VMenu.AddFunc(98, "Porter secours", "anim:play", {160}, "Valider")
+	VMenu.AddFunc(98, "Prendre note", "anim:play", {161}, "Valider")
+	VMenu.AddFunc(98, "Controle Police", "anim:play", {162}, "Valider")
+	VMenu.AddFunc(98, "Attendre Police", "anim:play", {163}, "Valider")
+	VMenu.AddFunc(98, "40", "anim:play", {164}, "Valider")-- a supr
+	VMenu.AddFunc(98, "41", "anim:play", {165}, "Valider")-- a supr
+	VMenu.AddFunc(98, "43", "anim:play", {166}, "Valider")--a supr
 end)
 
 AddEventHandler("anim:play", function(target, anim)
