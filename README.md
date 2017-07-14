@@ -1,2 +1,2 @@
 # animations_client
-+150 animations
++85 animations
